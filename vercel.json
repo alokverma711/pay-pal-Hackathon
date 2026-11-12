@@ -1,0 +1,9 @@
+
+{
+  "rewrites": [
+    {
+      "source": "/api/:path*",
+      "destination": "https://deplo-pay-pal-hackathon-api.onrender.com/api/:path*"
+    }
+  ]
+}

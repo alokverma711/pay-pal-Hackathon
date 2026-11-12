@@ -1,0 +1,13 @@
+node_modules/
+dist/
+.env
+.env.*
+!.env.example
+*.log
+.DS_Store
+data/raw/
+data/processed/train.jsonl
+data/processed/validation.jsonl
+data/processed/test.jsonl
+__pycache__/
+.vscode/

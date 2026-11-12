@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "PayVanta payment check (prototype)",
+  "version": "0.1.0",
+  "description": "You choose a payment request on a page. PayVanta checks the text and shows a risk signal before you pay. Prototype. It never says a request is safe and does not verify the seller.",
+  "permissions": ["contextMenus", "activeTab", "scripting", "storage"],
+  "host_permissions": ["https://scam-shield-paypal.onrender.com/*"],
+  "background": { "service_worker": "background.js" },
+  "action": { "default_title": "Check with PayVanta", "default_popup": "popup.html" }
+}
